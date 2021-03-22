@@ -71,3 +71,17 @@ iframe {
     height: 500px;
     margin-top: 50px;
 }
+
+.bicycles {
+
+}
+
+.columns {
+    display: flex;
+}
+
+.column {
+    margin: 0 10px; 
+    padding: 20px 0;
+    background-color: beige;
+}
