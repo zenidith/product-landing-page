@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="logo"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="biking" class="svg-inline--fa fa-biking fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M400 96a48 48 0 1 0-48-48 48 48 0 0 0 48 48zm-4 121a31.9 31.9 0 0 0 20 7h64a32 32 0 0 0 0-64h-52.78L356 103a31.94 31.94 0 0 0-40.81.68l-112 96a32 32 0 0 0 3.08 50.92L288 305.12V416a32 32 0 0 0 64 0V288a32 32 0 0 0-14.25-26.62l-41.36-27.57 58.25-49.92zm116 39a128 128 0 1 0 128 128 128 128 0 0 0-128-128zm0 192a64 64 0 1 1 64-64 64 64 0 0 1-64 64zM128 256a128 128 0 1 0 128 128 128 128 0 0 0-128-128zm0 192a64 64 0 1 1 64-64 64 64 0 0 1-64 64z"></path></svg></div>
-        <nav class="nav">
-            <button>Features</button>
-            <button><a href="#demo-video">Demo Video</a></button>
-            <button>Bicycles</button>
+    <header class="shadow" id="header">
+        <img src="./images/biking.svg" alt="" id="header-img" class="logo">
+        <nav class="nav" id="nav-bar">
+            <button class="nav-link"><a href="#features">Features</a></button>
+            <button class="nav-link"><a href="#video">Demo Video</a></button>
+            <button class="nav-link"><a href="#bicycles">Bicycles</a></button>
         </nav>
     </header>
 
@@ -21,9 +21,9 @@
         <h1>THE BROMPTON FOLDING BIKE
         </h1>
 
-        <form action="">
-            <input type="email" placeholder="Enter your email address"><br>
-            <input type="submit" value="Submit"><br>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <input type="email" placeholder="Enter your email address" id="email"><br>
+            <input type="submit" value="Submit" class="submit-btn" id="submit"><br>
         </form>
     </section>
 
@@ -58,8 +58,8 @@
         
     </section>
 
-    <section class="container" id="demo-video">
-        <iframe src="https://www.youtube.com/embed/watch?v=8KB9bqNPOs8&list=PLnBjAd4O0NbCzFKrrt1RCK0ESlPvpDDSm&index=7&ab_channel=bromptonbicycle">
+    <section class="container">
+        <iframe src="https://www.youtube.com/embed/watch?v=8KB9bqNPOs8&list=PLnBjAd4O0NbCzFKrrt1RCK0ESlPvpDDSm&index=7&ab_channel=bromptonbicycle" id="video">
         </iframe>
     </section>
 
@@ -67,19 +67,19 @@
         <div class="columns">
             
             <!-- column 1 -->
-            <div class="column">
+            <div class="column shadow">
                 <h3>HTML</h3>
                 <p>Magna fringilla urna porttitor rhoncus dolor purus. Malesuada bibendum arcu vitae elementum. Purus sit amet volutpat consequat. </p>
             </div>
             
             <!-- column 3 -->
-            <div class="column">
+            <div class="column shadow">
                 <h3>CSS</h3>
                 <p>Magna fringilla urna porttitor rhoncus dolor purus. Malesuada bibendum arcu vitae elementum. Purus sit amet volutpat consequat. </p>
             </div>
             
             <!-- column 3 -->
-            <div class="column">
+            <div class="column shadow">
                 <h3>And More</h3>
                 <p>Magna fringilla urna porttitor rhoncus dolor purus. Malesuada bibendum arcu vitae elementum. Purus sit amet volutpat consequat. </p>
             </div>
@@ -87,5 +87,15 @@
         </div> <!-- / columns -->
     </section> <!-- / bicycles -->
     
+    <footer>
+        <nav class="nav-footer">
+            <button><a href="#">Privacy</a></button>
+            <button><a href="#">Terms</a></button>
+            <button><a href="#">Contact</a></button>
+        </nav>
+    </footer>
+<!-- <script>document.getElementById('form').addEventListener('submit',(e)=>{e.preventDefault();})</script> -->
+    <!-- this it to test whether the project passes tests. -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
 </body>
 </html>
