@@ -3,6 +3,17 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    border-style:solid;
+    border-color: white;
+   color: white;
+}
+
 .logo {
     height: 40px;
     padding: 7px;
@@ -21,8 +32,12 @@ button {
 header {
     display: flex;
     width: 100%;
-    background-color: #f7ea00;
+    background-color: rgb(189, 189, 189);
 }
+
+/* header .header-img {
+    fill: white;
+} */
 
 .nav {
     margin-left: auto;
@@ -109,7 +124,7 @@ iframe {
 
 .nav-footer {
     margin-left: auto;
-
+    color: white;
 }
 
 .nav-footer button {
@@ -123,7 +138,7 @@ a {
 }
 
 footer {
-    background-color: #f7ea00;
+    background-color: black;
     width: 100%;
     padding: 30px 0;
     display: flex;
