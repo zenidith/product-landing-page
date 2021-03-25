@@ -11,32 +11,36 @@
     
 </head>
 <body>
-    <header class="shadow" id="header">
-        <img src="./images/biking.svg" alt="" id="header-img" class="logo">
+    <header id="header">
+        <!-- <img src="./images/biking.svg" alt="" class="logo"> -->
 
-        <h1 class="logo-title">THE BROMPTON FOLDING BIKE
-        </h1>
+        <!-- <h1 class="logo-title">THE BROMPTON FOLDING BIKE
+        </h1> -->
         
-        <nav class="nav" id="nav-bar">
+        <nav class="nav shadow" id="nav-bar">
             <button class="nav-link"><a href="#features">Features</a></button>
             <button class="nav-link"><a href="#video">Demo Video</a></button>
             <button class="nav-link"><a href="#bicycles">Bicycles</a></button>
         </nav>
+
+        <div class="container hero-section flex whitespace">
+            <div>
+                <h3>BROMPTON</h3>
+                <p>Meet the ultimate bike for getting around and exploring your city. Our iconic folding bike will always be ready for your next adventure to the office, the shops or simply discovering new places.
+                </p>
+                <p>Keep in touch with all things Brompton?</p>
+                <form action="https://www.freecodecamp.com/email-submit" id="form">
+                    <input type="email" placeholder="Enter email to sign up to the newsletter" id="email"><br>
+                    <input type="submit" value="Submit" class="submit-btn" id="submit"><br>
+                </form>    
+            </div>
+            <img src="./images/Brompton1.jpeg" alt="" id="header-img">
+        </div>
     </header>
 
-    <section class="container center hero-section">
-
-        <p>Keep in touch with all things Brompton?</p>
-
-        <form action="https://www.freecodecamp.com/email-submit" id="form">
-            <input type="email" placeholder="Enter email to sign up to the newsletter" id="email"><br>
-            <input type="submit" value="Submit" class="submit-btn" id="submit"><br>
-        </form>
-    </section>
-
-    <section class="features container">
+    <section class="features container whitespace" id="features">
         <div class="size flex">  
-            <img src="images/cycle.png" alt="">
+            <img src="images/bicycle-solid.svg" alt="">
             <div>
                 <h2>It will change the way you experience the city.
                 </h2>
@@ -45,7 +49,7 @@
             </div>
         </div>
         <div class="benefits flex">
-            <img src="images/benefits.png" alt="">
+            <img src="images/ruler-combined-solid.svg" alt="">
             <div>
                 <h2>It’s easy to fold
                 </h2>
@@ -54,7 +58,7 @@
             </div>
         </div>
         <div class="accessories flex">
-            <img src="images/accessory.png" alt="">
+            <img src="images/user-shield-solid.svg" alt="">
             <div>
                 <h2>Less chance of getting stolen
                 </h2>
@@ -66,11 +70,11 @@
     </section>
 
     <section class="container">
-        <iframe src="https://www.youtube.com/embed/watch?v=8KB9bqNPOs8&list=PLnBjAd4O0NbCzFKrrt1RCK0ESlPvpDDSm&index=7&ab_channel=bromptonbicycle" id="video">
+        <iframe class="whitespace" id="video" src="https://www.youtube.com/embed/watch?v=8KB9bqNPOs8&list=PLnBjAd4O0NbCzFKrrt1RCK0ESlPvpDDSm&index=7&ab_channel=bromptonbicycle">
         </iframe>
     </section>
 
-    <section class="bicycles">
+    <section class="bicycles whitespace" id="bicycles">
         <div class="columns">
             
             <!-- column 1 -->
@@ -108,6 +112,6 @@
     </footer>
 <!-- <script>document.getElementById('form').addEventListener('submit',(e)=>{e.preventDefault();})</script> -->
     <!-- this it to test whether the project passes tests. -->
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
