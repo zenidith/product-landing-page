@@ -34,9 +34,24 @@ button {
 	outline: inherit;
 }
 
+#submit {
+    width: 55%;
+}
+
+#email {
+    width: 50%;
+
+}
+
 #header-img {
     border-radius: 15px;
     opacity: 0.8;
+}
+
+h3 {
+    border: solid;
+    border-color: black;
+    text-align: center;
 }
 
 .nav {
