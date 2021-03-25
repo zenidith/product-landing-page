@@ -19,6 +19,11 @@ h1 {
     padding: 7px;
 }
 
+.logo-title {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 button {
     background: none;
 	color: inherit;
@@ -33,16 +38,14 @@ header {
     display: flex;
     width: 100%;
     background-color: rgb(189, 189, 189);
+    position: fixed;
+    top: 0;
 }
 
-/* header .header-img {
-    fill: white;
-} */
 
 .nav {
     margin-left: auto;
     padding: 5px;
-
 }
 
 .nav button {
@@ -77,6 +80,10 @@ header {
 .hero-section * {
     margin-top: 20px;
     padding: 10px;
+}
+
+.hero-section {
+    margin-top: 80px;
 }
 
 img {
